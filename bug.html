@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be replaced.
+  </div>
+
+  <script>
+    // This script attempts to replace the innerHTML of a non-existent element
+    document.getElementById("myDiv2").innerHTML = "New text!"; 
+  </script>
+</body>
+</html>
